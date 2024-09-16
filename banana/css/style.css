@@ -1,0 +1,143 @@
+/* Remove as margens padrão do corpo da página */
+body {
+    margin: 0;  
+}
+
+/* Estilo para o container do cabeçalho com imagem de fundo */
+#slide {
+    background-image: url(../img/imagem\ principal.png); /* Define a imagem de fundo */
+    background-size: cover; /* Faz com que a imagem cubra todo o fundo do container */
+    background-position: center; /* Centraliza a imagem no container */
+    background-repeat: no-repeat; /* Impede que a imagem se repita */
+    height: 70vh; /* Define a altura do container como 70% da altura da viewport */
+}
+
+/* Estilo do cabeçalho fixo na parte superior da página */
+header {
+    background-color: #ffcf2b; /* Cor de fundo do cabeçalho */
+    display: flex; /* Usa flexbox para o layout */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    padding: 20px 40px; /* Adiciona espaçamento interno ao cabeçalho */
+    position: fixed; /* Mantém o cabeçalho fixo no topo da página */
+    top: 10px; /* Espaçamento do topo da página */
+    left: 20px; /* Espaçamento lateral do lado esquerdo */
+    right: 20px; /* Espaçamento lateral do lado direito */
+    z-index: 1000; /* Garante que o cabeçalho fique acima de outros elementos */
+}
+
+/* Centraliza o conteúdo dentro do container principal */
+.container {
+    text-align: center; /* Centraliza o texto horizontalmente */
+    margin-top: 200px; /* Adiciona espaço acima do container */
+}
+
+/* Estilo para o container da logo */
+.logo {
+    display: flex; /* Usa flexbox para o layout */
+    justify-content: center; /* Centraliza a logo horizontalmente */
+    align-items: center; /* Centraliza a logo verticalmente */
+    margin-right: 20px; /* Espaço entre a logo e os itens de navegação */
+}
+
+/* Ajusta a altura máxima da logo */
+.logo img {
+    max-height: 100px; /* Define a altura máxima da imagem da logo */
+}
+
+/* Estilo para a navegação no cabeçalho */
+nav {
+    display: flex; /* Usa flexbox para o layout */
+    align-items: center; /* Alinha verticalmente os itens de navegação */
+    flex-grow: 1; /* Permite que o nav ocupe espaço disponível */
+    justify-content: center; /* Centraliza os itens de navegação horizontalmente */
+}
+
+/* Estilo para a lista de itens de navegação */
+nav ul {
+    list-style-type: none; /* Remove os marcadores de lista */
+    margin: 0; /* Remove a margem padrão */
+    padding: 0; /* Remove o padding padrão */
+    display: flex; /* Usa flexbox para o layout */
+    align-items: center; /* Alinha verticalmente os itens da lista */
+}
+
+/* Estilo para cada item de navegação */
+nav ul li {
+    margin-left: 20px; /* Espaço entre os itens da lista */
+}
+
+/* Estilo para os links de navegação */
+nav ul li a {
+    color: #000000; /* Define a cor do texto como preto */
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+    font-weight: bold; /* Define o texto como negrito */
+    padding: 20px 30px; /* Adiciona espaçamento interno aos links */
+    font-size: 20px; /* Define o tamanho da fonte */
+    font-family: "Bebas Neue", sans-serif; /* Define a fonte do texto */
+    text-decoration: underline; /* Adiciona um sublinhado aos links */
+}
+
+/* Estilo para os blocos de texto principal */
+.text {
+    display: flex; /* Usa flexbox para o layout */
+    justify-content: center; /* Centraliza o texto horizontalmente */
+    align-items: center; /* Centraliza o texto verticalmente */
+    height: 15vh; /* Define a altura do bloco como 15% da altura da viewport */
+    text-align: center; /* Centraliza o texto dentro do bloco */
+    margin: 0%; /* Remove a margem padrão */
+}
+
+/* Estilo para o título h3 dentro dos blocos de texto */
+.text h3 {
+    font-size: 26px; /* Define o tamanho da fonte */
+    font-weight: 300; /* Define o peso da fonte como leve */
+    width: 80%; /* Define a largura do texto como 80% do bloco */
+    line-height: 40px; /* Define a altura da linha para melhor legibilidade */
+    font-family: Georgia, 'Times New Roman', Times, serif; /* Define a fonte do texto */
+    color: #1c1f22; /* Define a cor do texto */
+    margin: 0; /* Remove a margem padrão */
+}
+
+/* Estilo para o título h1 dentro dos blocos de texto */
+.text h1 {
+    font-size: 35px; /* Define o tamanho da fonte */
+    font-weight: 300; /* Define o peso da fonte como leve */
+    width: 80%; /* Define a largura do texto como 80% do bloco */
+    line-height: 40px; /* Define a altura da linha */
+    font-family: Impact, Haettenschweiler, sans-serif; /* Define a fonte do texto */
+    color: #000d1a; /* Define a cor do texto */
+    margin: 10px; /* Adiciona uma margem ao redor do título */
+    font-weight: bold; /* Define o texto como negrito */
+}
+
+/* Estilo para o título h4 dentro dos blocos de texto */
+.text h4 {
+    font-size: 14px; /* Define o tamanho da fonte */
+    font-weight: 300; /* Define o peso da fonte como leve */
+    width: 80%; /* Define a largura do texto como 80% do bloco */
+    line-height: 40px; /* Define a altura da linha */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Define a fonte do texto */
+    color: #000d1a; /* Define a cor do texto */
+    margin: 10px; /* Adiciona uma margem ao redor do título */
+    font-weight: bold; /* Define o texto como negrito */
+}
+
+/* Estilo para o rodapé fixo na parte inferior da página */
+footer {
+    background-color: #ffcf2b; /* Cor de fundo do rodapé */
+    padding: 20px; /* Adiciona espaçamento interno ao rodapé */
+    text-align: center; /* Centraliza o texto horizontalmente */
+    position: fixed; /* Mantém o rodapé fixo na parte inferior da página */
+    bottom: 0; /* Posiciona o rodapé na parte inferior da página */
+    width: 100%; /* Faz com que o rodapé ocupe toda a largura da página */
+}
+
+/* Estilo para o texto dentro do rodapé */
+footer p {
+    font-size: 20px; /* Define o tamanho da fonte */
+    color: #0f0f0f; /* Define a cor do texto */
+    font-family: "Bebas Neue", sans-serif; /* Define a fonte do texto */
+    margin: 0; /* Remove a margem padrão */
+    font-weight: bold; /* Define o texto como negrito */
+}
